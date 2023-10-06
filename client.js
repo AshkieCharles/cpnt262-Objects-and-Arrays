@@ -12,12 +12,16 @@ const remFood = typesOfFood.pop("Peanuts")
 console.log(typesOfFood)
 /* Both pop and push mutate, that is why we return the value of the original variable because it has been permanently changed. */
 
-/* This does not mutate the original array as it simply returns a yes or no and doesnt change the array itself*/
+/* This does not mutate the original array as it simply returns a yes or no and doesn't change the array itself*/
 const specFood = typesOfFood.includes("BBQ")
 console.log(specFood)
+
+/* Below this line is object code */
 
 let valUser = Object.values(userInfo)
 console.log(valUser)
 
 let delKey = delete userInfo['School']
 console.log(userInfo)
+
+
