@@ -7,3 +7,4 @@
 
 ### Code Journal:
 - Trying to remember what lists and dictionaries are from python really helped me through this as it is the exact same thing but with different syntax.
+- I had trouble making sure my code works is because it has already changed the original array, hence why I thought it  was broken.
